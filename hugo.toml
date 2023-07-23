@@ -1,0 +1,142 @@
+baseURL = "http://localhost:1313/"
+title = "NOAM ENERGY: Energy flows"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+paginate = "7"
+theme = "spectral"
+
+
+[params]
+fancyTitle = "NOAM ENERGY" # title for frontpage, may include image
+copyright = "NOAM ENERGY"
+description = 'Join us in the Future of Energy Commerce <br/> Bringing Seamless Trading Solutions <br/> Across the Globe'
+startbuttonText = "Become partner"
+startbuttonLink = "#contact"
+body_is_markdown = true
+#custom_css = "foo.css"
+images = ["static/logo.png"]
+
+[[params.menu.main]]
+url = '/'
+title = "Home"
+
+[params.one]
+enable = true
+title = 'Unleashing the Power of Choice'
+body = '''
+My company is a leading energy trading, based in the United Arab Emirates.
+We specialize in providing comprehensive trading services and products in the energy sector.
+With a strong focus on customer satisfaction, reliability, and innovation.
+We are committed to meeting the diverse energy needs of our clients.
+'''
+
+[[params.one.icon]]
+icon = "solid fa fa-oil-well"
+style = "1"
+label = "Energy"
+
+[[params.one.icon]]
+icon = "solid fa fa-globe"
+style = "2"
+label = "Globe"
+
+[[params.one.icon]]
+icon = "solid fa fa-handshake"
+style = "3"
+label = "Deal"
+
+[params.two]
+enable = true
+
+[[params.two.section]]
+img = "img1.png"
+title = 'Unparalleled Market Access <br/> To Energy Products Trading'
+body = 'We have established an extensive network of industry connections, providing our clients with unparalleled access to key energy markets worldwide. Whether it is sourcing the highest-quality crude oil, natural gas, or refined petroleum products, we ensure a steady and reliable supply for your business needs.'
+
+[[params.two.section]]
+img = "img1.jpeg"
+title = 'Risk Management <br/> of the Future'
+body = 'Navigating the complexities of the energy market requires a keen understanding of risk management. Our team of experts utilizes advanced analytical tools and market insights to develop tailored risk strategies, safeguarding your investments and ensuring stability in volatile market conditions.'
+
+[[params.two.section]]
+img = "img3.jpeg"
+title = 'Global Logistics Excellence <br />of any Energy'
+body = 'Efficient and timely delivery is critical in the energy trading industry. Our logistics team is equipped with the know-how to handle complex transportation challenges, ensuring that your oil, gas, and petrol products reach their destination safely and on schedule.'
+
+[[params.two.section]]
+img = "img4.jpeg"
+title = 'Compliance and Sustainability <br />of Our Main Services'
+body = 'We are committed to conducting our operations responsibly and in compliance with international regulations. By integrating sustainability practices into our trading processes, we actively contribute to a greener and more sustainable energy future.'
+
+[[params.two.section]]
+img = "img5.jpeg"
+title = 'Collaborative Approach<br /> We Belive'
+body = 'We believe in the power of collaboration. Our team works closely with clients, understanding their unique requirements and developing tailor-made solutions that maximize profitability and efficiency.'
+
+
+[params.three]
+enable = true
+title = 'Unleashing the Power of Choice'
+body = '''
+Why Noam Energy Trading Stands Out?
+'''
+
+[[params.three.feature]]
+icon = "fa-paper-plane"
+title = "Proven Industry Expertise"
+body = "Backed by extensive experience in the energy trading sector, our team possesses unrivaled market knowledge and insights, ensuring strategic decision-making and optimal outcomes."
+
+[[params.three.feature]]
+icon = "solid fa-laptop"
+title = "Reliability and Trust at the Core"
+body = "We prioritize reliability and trust in every aspect of our business. Count on us for consistent delivery of high-quality products and services that meet your energy needs and exceed your expectations."
+
+[[params.three.feature]]
+icon = "solid fa-code"
+title = "Empowering Competitive Pricing"
+body = "Our commitment to fair and competitive pricing empowers our customers with cost-effective energy solutions. Experience the advantage of competitive rates without compromising on quality."
+
+[[params.three.feature]]
+icon = "solid fa-headphones-alt"
+title = "A Robust Network for Success"
+body = "We have fostered a strong network of reputable partners and suppliers, enabling us to efficiently meet the diverse needs of our clients. Benefit from our extensive connections and industry relationships."
+
+[[params.three.feature]]
+icon = "fa-heart"
+title = "Your Satisfaction Drives Us"
+body = "At Noam Energy Trading, your satisfaction is paramount. We go above and beyond to ensure exceptional customer service and prompt support. Your success is our success."
+
+[[params.three.feature]]
+icon = "fa-heart"
+title = "Energy flows to you"
+body = "With our dedication to innovation, reliability, and customer satisfaction, we stand as the preferred partner for energy trading, empowering businesses and nations to thrive in the dynamic landscape of the global energy market"
+
+[[params.cta.link]]
+href = "#"
+text = "Activate"
+special = true
+
+[params.contact]
+enable = true
+title = "Contact"
+body = "Leave us a message."
+phone = "+49 (0) 030 000 000"
+address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
+email = "my@noamenergy.com"
+subject = "New Submission!"
+formspree_form_id = "example_invalid"
+
+
+# language specific options
+
+[languages.en]
+weight = 0
+languageName = "English"
+
+[languages.de]
+weight = 10
+languageName = "Deutsch"
+
+[languages.es]
+weight = 10
+languageName = "Español"
