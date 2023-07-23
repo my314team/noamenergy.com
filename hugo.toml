@@ -14,11 +14,7 @@ startbuttonText = "Become partner"
 startbuttonLink = "#contact"
 body_is_markdown = true
 #custom_css = "foo.css"
-images = ["static/logo.png"]
-
-[[params.menu.main]]
-url = '/'
-title = "Home"
+images = ["logo.png"]
 
 [params.one]
 enable = true
